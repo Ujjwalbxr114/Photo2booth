@@ -6,7 +6,7 @@ function setup(){
     noCanvas();
    const video = createCapture(VIDEO);
     video.elt.setAttribute('id', 'vid');
-    video.size(240, 210);
+    video.size(275, 275);
     video.style.marginBottom = "14%";
     
     
